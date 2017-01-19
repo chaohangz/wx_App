@@ -1,0 +1,16 @@
+<view class="content">
+  <view wx:for="{{ array }}">
+    <view class="list">
+      <image src="../../img/{{ item.img }}.jpg" class="image"></image>
+      <view class="text_box">
+        <text class="title">{{ item.title }}</text>
+        <view class="mid">
+          <image src="../../img/love.png" class="love"></image> {{ item.fraction }}分
+          <image src="../../img/comment.png" class="comment"></image> {{ item.comment }}个评论
+        </view>
+        <text class="bottom_text">{{ item.text }}</text>
+      </view>
+      <button class="button" size="mini">下载</button>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,53 @@
+.list {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  margin: 10rpx 0;
+  padding: 10rpx 0;
+}
+
+.image {
+  padding: 20rpx;
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 10rpx;
+}
+
+.text_box {
+  width: 400rpx;
+  height: 160rpx;
+  display: inline-flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+.title {
+  font-size: 45rpx;
+  font-weight: bold;
+}
+
+.mid {
+  padding: 10rpx;
+  color: lightslategrey;
+  font-size: 35rpx;
+}
+
+.love {
+  width: 35rpx;
+  height: 35rpx;
+}
+
+.comment {
+  width: 35rpx;
+  height: 35rpx;
+}
+
+.bottom_text {
+  color: lightslategrey;
+}
+
+.button {
+  color: white;
+  background: dodgerblue;
+}
